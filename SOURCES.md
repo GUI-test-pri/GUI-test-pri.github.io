@@ -18,4 +18,4 @@ Prepared November 12, 2026.
 
 At the user’s request, the profile uses the intended activation-period date “Jan 2027 – present”; the short biography describes research interests and photography/hiking only. CV and bibliography downloads, publication links, author-status badges, and the DBLP profile link are no longer published. Google Scholar uses the user-supplied profile ID and English locale: https://scholar.google.com/citations?user=3fp_v-4AAAAJ&hl=en .
 
-University emblems are served locally from McGill and Dalhousie website assets and the UNB Faculty of Computer Science crest on the SAC 2023 sponsor page; see `assets/images/schools/SOURCES.md`. They identify educational institutions and do not imply endorsement.
+University emblems are served locally from the McGill coat of arms on Wikimedia, the Dalhousie website asset, and the UNB Faculty of Computer Science crest on the SAC 2023 sponsor page; see `assets/images/schools/SOURCES.md`. They identify educational institutions and do not imply endorsement.

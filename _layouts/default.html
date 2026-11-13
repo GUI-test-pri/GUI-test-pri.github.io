@@ -12,7 +12,7 @@
   <link rel="stylesheet" href="{{ '/assets/vendor/bootstrap.min.css' | relative_url }}">
   <link rel="stylesheet" href="{{ '/assets/vendor/fontawesome/css/all.min.css' | relative_url }}">
   <link rel="stylesheet" href="{{ '/assets/css/global.css' | relative_url }}">
-  <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}?v={{ site.time | date: '%s' }}">
 </head>
 <body class="bg-light d-flex flex-column min-vh-100">
   {% include navbar.html %}
