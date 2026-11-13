@@ -18,10 +18,6 @@
   "selected": false,
   "topic": "Cryptography",
   "doi": "10.1109/ICCC57788.2023.10233359",
-  "pub_date": "2023",
-  "links": {
-    "Paper": "https://doi.org/10.1109/ICCC57788.2023.10233359",
-    "BibTeX": "/assets/bibtex/2023-mutual-authentication.bib"
-  }
+  "pub_date": "2023"
 }
 ---

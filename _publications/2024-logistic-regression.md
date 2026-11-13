@@ -17,10 +17,6 @@
   "selected": false,
   "doi": "10.1109/ICCC62479.2024.10681868",
   "topic": "Privacy",
-  "pub_date": "2024",
-  "links": {
-    "Paper": "https://doi.org/10.1109/ICCC62479.2024.10681868",
-    "BibTeX": "/assets/bibtex/2024-logistic-regression.bib"
-  }
+  "pub_date": "2024"
 }
 ---

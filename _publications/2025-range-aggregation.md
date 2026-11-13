@@ -17,12 +17,7 @@
   "selected": true,
   "doi": "10.1007/978-3-031-85593-1_1",
   "topic": "Privacy",
-  "award": "Best Paper Award",
   "note": "Proceedings published in 2025.",
-  "pub_date": "2025",
-  "links": {
-    "Paper": "https://doi.org/10.1007/978-3-031-85593-1_1",
-    "BibTeX": "/assets/bibtex/2025-range-aggregation.bib"
-  }
+  "pub_date": "2025"
 }
 ---

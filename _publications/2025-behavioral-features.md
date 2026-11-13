@@ -22,10 +22,6 @@
   "selected": false,
   "doi": "10.1007/s12083-024-01891-9",
   "topic": "IoT Security",
-  "pub_date": "2025",
-  "links": {
-    "Paper": "https://doi.org/10.1007/s12083-024-01891-9",
-    "BibTeX": "/assets/bibtex/2025-behavioral-features.bib"
-  }
+  "pub_date": "2025"
 }
 ---

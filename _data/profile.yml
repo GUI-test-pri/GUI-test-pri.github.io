@@ -4,39 +4,43 @@
   "navbar_name": "Jinkun Gui",
   "positions": [
     {
-      "name": "Incoming PhD Student"
+      "name": "PhD Student"
     },
     {
-      "name": "McGill University · January 2027"
+      "name": "McGill University"
     }
   ],
   "email": "jinkun.gui@mail.mcgill.ca",
-  "cv_link": "/assets/Jinkun_Gui_CV.pdf",
   "github": "GUI-test-pri",
-  "dblp": "https://dblp.org/pid/356/4311.html",
   "portrait_url": "/assets/images/monogram.svg",
   "portrait_caption": "Jinkun Gui",
   "location": "Montreal, Canada",
   "short_bio_text_justify": false,
-  "short_bio": "<p>I am a researcher and software developer working on <strong>privacy, security, and reliable software</strong>. I will join McGill University as a PhD student in January 2027, supervised by Dr. Lili Wei.</p>\n<p>I received my Master of Computer Science from the University of New Brunswick, supervised by Dr. Rongxing Lu, and my Bachelor of Computer Science with a Minor in Mathematics from Dalhousie University.</p>\n<p>My work spans secure IoT communication, privacy-preserving data sharing and analytics, and machine learning for device identification and anomaly detection. I have contributed to research collaborations with the National Research Council Canada and Mastercard, developed industrial software at Trihedral, and co-founded CurioSeed, a learning-companion chatbot venture for children.</p>",
+  "short_bio": "<p>My research interests include privacy-enhancing technologies, reliable software &amp; AI, and cybersecurity.</p>\n<p>Outside of research, I enjoy photography and hiking.</p>",
   "education": [
     {
       "name": "McGill University",
-      "position": "PhD (incoming)",
+      "position": "PhD Student",
       "dept": "Supervisor: Dr. Lili Wei",
-      "date": "Starting Jan. 2027"
+      "date": "Jan 2027 – present",
+      "logo": "/assets/images/schools/mcgill.ico",
+      "url": "https://www.mcgill.ca/"
     },
     {
       "name": "University of New Brunswick",
       "position": "Master of Computer Science",
       "dept": "Supervisor: Dr. Rongxing Lu",
-      "date": "Sep. 2022 – Dec. 2024"
+      "date": "Sep. 2022 – Dec. 2024",
+      "logo": "/assets/images/schools/unb.png",
+      "url": "https://www.unb.ca/"
     },
     {
       "name": "Dalhousie University",
       "position": "Bachelor of Computer Science · Minor in Mathematics",
       "dept": "Dean’s List · Sexton Scholar · George H. Campbell Scholarship",
-      "date": "Jan. 2018 – Apr. 2022"
+      "date": "Jan. 2018 – Apr. 2022",
+      "logo": "/assets/images/schools/dalhousie.png",
+      "url": "https://www.dal.ca/"
     }
   ],
   "experience": [
@@ -91,5 +95,6 @@
       "date": "2024",
       "description": "For “An Efficient Edge-Based Privacy-Preserving Range Aggregation Scheme for Aging in Place System.”"
     }
-  ]
+  ],
+  "gscholar": "https://scholar.google.com/citations?user=3fp_v-4AAAAJ&hl=en"
 }

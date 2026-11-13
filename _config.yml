@@ -1,5 +1,5 @@
 title: Jinkun Gui
-description: "Jinkun Gui — privacy, IoT security, and reliable software. Incoming PhD student at McGill University, January 2027."
+description: "Jinkun Gui — privacy-enhancing technologies, reliable software & AI, and cybersecurity."
 url: "https://gui-test-pri.github.io"
 baseurl: ""
 lang: en
@@ -17,3 +17,5 @@ exclude:
   - SOURCES.md
   - vendor
   - .bundle
+  - assets/Jinkun_Gui_CV.pdf
+  - assets/bibtex

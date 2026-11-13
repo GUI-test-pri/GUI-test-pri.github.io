@@ -2,10 +2,8 @@
 <article class="publication-item" data-publication data-category="{{ item.category }}" data-year="{{ item.year }}">
   <div class="publication-venue" aria-hidden="true"><strong>{{ item.venue_short }}</strong><span>{{ item.category }}</span></div>
   <div class="publication-detail">
-    <div class="publication-flags">{% if item.first_author %}<span class="paper-tag">First author</span>{% endif %}{% if item.award %}<span class="award-tag"><i class="fas fa-award" aria-hidden="true"></i> {{ item.award }}</span>{% endif %}</div>
     <h3>{{ item.title }}</h3>
     <p class="publication-authors">{% include widgets/author_list.html authors=item.authors %}</p>
     <p class="publication-citation"><i>{{ item.pub }}</i>{{ item.pub_post }} {{ item.pub_date }}{% if item.note %} <span class="text-muted">{{ item.note }}</span>{% endif %}</p>
-    <div class="publication-links">{% for link in item.links %}<a href="{% if link[1] contains '://' %}{{ link[1] }}{% else %}{{ link[1] | relative_url }}{% endif %}" target="_blank" rel="noopener noreferrer">{{ link[0] }} <span aria-hidden="true">↗</span></a>{% endfor %}</div>
   </div>
 </article>

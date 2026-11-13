@@ -16,12 +16,7 @@
   "category": "Conference",
   "selected": true,
   "topic": "Cryptography",
-  "first_author": true,
   "doi": "10.1109/ICCC62479.2024.10681846",
-  "pub_date": "2024",
-  "links": {
-    "Paper": "https://doi.org/10.1109/ICCC62479.2024.10681846",
-    "BibTeX": "/assets/bibtex/2024-threshold.bib"
-  }
+  "pub_date": "2024"
 }
 ---

@@ -17,10 +17,6 @@
   "selected": false,
   "doi": "10.1109/ICC52391.2025.11161028",
   "topic": "Privacy",
-  "pub_date": "2025",
-  "links": {
-    "Paper": "https://doi.org/10.1109/ICC52391.2025.11161028",
-    "BibTeX": "/assets/bibtex/2025-data-sharing.bib"
-  }
+  "pub_date": "2025"
 }
 ---

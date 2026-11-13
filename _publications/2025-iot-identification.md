@@ -23,11 +23,6 @@
   "selected": true,
   "doi": "10.1109/JIOT.2024.3522863",
   "topic": "IoT Security",
-  "links": {
-    "Paper": "https://doi.org/10.1109/JIOT.2024.3522863",
-    "Dataset": "https://www.unb.ca/cic/datasets/iot-diad-2024.html",
-    "BibTeX": "/assets/bibtex/2025-iot-identification.bib"
-  },
   "pub_date": "2025"
 }
 ---

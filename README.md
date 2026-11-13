@@ -10,7 +10,8 @@ Personal academic website adapted from [luost26/academic-homepage](https://githu
 - `_publications/*.md`: publication metadata; set `selected: true` to feature a paper on the homepage.
 - `_data/navigation.yml`: navigation links.
 - `assets/images/monogram.svg`: replace with a portrait and update `portrait_url` in the profile. Add appropriate alternative text in the profile widget if replacing the monogram with a photograph.
-- `assets/Jinkun_Gui_CV.pdf`: public CV copy, with the phone number removed.
+- CV and BibTeX downloads are currently excluded from the published site.
+- `assets/images/schools/`: university emblems used beside the education entries.
 - `assets/css/custom.css`: personal styling; `global.css` is retained from the original template.
 
 ## Preview locally

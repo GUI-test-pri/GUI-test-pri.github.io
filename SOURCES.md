@@ -13,3 +13,9 @@ Prepared November 12, 2026.
 - Crossref exact-title records additionally verified the threshold paper DOI https://doi.org/10.1109/ICCC62479.2024.10681846 and mutual-authentication paper DOI https://doi.org/10.1109/ICCC57788.2023.10233359 . All eight publications link directly to their publisher via DOI.
 - ADIoT event year is 2024; the proceedings were published in 2025. Publication grouping follows the supplied CV's 2025 publication year.
 - Bibliographic entries use the author abbreviations supplied in the CV, with Jinkun Gui expanded for display only.
+
+## November 2026 presentation revision
+
+At the user’s request, the profile uses the intended activation-period date “Jan 2027 – present”; the short biography describes research interests and photography/hiking only. CV and bibliography downloads, publication links, author-status badges, and the DBLP profile link are no longer published. Google Scholar uses the user-supplied profile ID and English locale: https://scholar.google.com/citations?user=3fp_v-4AAAAJ&hl=en .
+
+University emblems are served locally from McGill and Dalhousie website assets and the UNB Faculty of Computer Science crest on the SAC 2023 sponsor page; see `assets/images/schools/SOURCES.md`. They identify educational institutions and do not imply endorsement.

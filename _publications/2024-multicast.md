@@ -18,11 +18,6 @@
   "selected": true,
   "doi": "10.1109/ICC51166.2024.10622866",
   "topic": "Cryptography",
-  "first_author": true,
-  "pub_date": "2024",
-  "links": {
-    "Paper": "https://doi.org/10.1109/ICC51166.2024.10622866",
-    "BibTeX": "/assets/bibtex/2024-multicast.bib"
-  }
+  "pub_date": "2024"
 }
 ---

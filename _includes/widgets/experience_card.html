@@ -1,6 +1,6 @@
 <section class="card border-0 shadow-sm bg-white mt-3" aria-labelledby="education-title"><div class="card-body p-4">
   <h2 class="section-heading" id="education-title">Education</h2>
-  {% for item in site.data.profile.education %}<div class="education-item"><div><h3>{{ item.name }}</h3><p>{{ item.position }}</p><p class="text-muted small mb-0">{{ item.dept }}</p></div><time>{{ item.date }}</time></div>{% endfor %}
+  {% for item in site.data.profile.education %}<div class="education-item"><img class="school-emblem" src="{{ item.logo | relative_url }}" alt="{{ item.name }} emblem" width="36" height="40" loading="lazy"><div class="education-info"><h3><a href="{{ item.url }}" target="_blank" rel="noopener noreferrer">{{ item.name }}</a></h3><p>{{ item.position }}</p><p class="text-muted small mb-0">{{ item.dept }}</p></div><time>{{ item.date }}</time></div>{% endfor %}
   <div class="award-callout"><i class="fas fa-award" aria-hidden="true"></i><div><strong>Best Paper Award · ADIoT 2024</strong><p>Privacy-preserving range aggregation for Aging in Place.</p></div></div>
   {% unless page.navbar_title == 'Experience' %}<a href="{{ '/experience.html' | relative_url }}">Work, projects &amp; teaching <span aria-hidden="true">→</span></a>{% endunless %}
 </div></section>
