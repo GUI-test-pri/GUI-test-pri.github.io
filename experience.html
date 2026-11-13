@@ -1,0 +1,11 @@
+---
+layout: default
+title: Experience
+navbar_title: Experience
+---
+<div class="page-intro"><p class="eyebrow">RESEARCH &amp; PRACTICE</p><h1>Experience</h1><p>From secure IoT protocols to industrial software and learning tools.</p></div>
+<div class="row"><div class="col-lg-8">
+<section class="card border-0 shadow-sm bg-white mb-3"><div class="card-body p-4"><h2 class="section-heading">Work Experience</h2>{% for item in site.data.profile.experience %}<article class="experience-item"><div class="experience-header"><h3>{{ item.name }}</h3><span>{{ item.date }}</span></div><p class="experience-role">{{ item.position }}</p><p class="mb-0">{{ item.description }}</p></article>{% endfor %}</div></section>
+<section class="card border-0 shadow-sm bg-white mb-3"><div class="card-body p-4"><h2 class="section-heading">Research Projects</h2>{% for item in site.data.profile.projects %}<article class="experience-item"><div class="experience-header"><h3>{{ item.name }}</h3><span>{{ item.date }}</span></div><p class="experience-role">{{ item.role }}</p><p class="mb-0">{{ item.description }}</p></article>{% endfor %}</div></section>
+<section class="card border-0 shadow-sm bg-white"><div class="card-body p-4"><h2 class="section-heading">Teaching &amp; Service</h2>{% for item in site.data.profile.teaching %}<article class="experience-item"><h3>{{ item.name }}</h3><p class="experience-role">{{ item.date }}</p><p class="mb-0">{{ item.description }}</p></article>{% endfor %}</div></section>
+</div><div class="col-lg-4 experience-sidebar">{% include widgets/experience_card.html %}</div></div>

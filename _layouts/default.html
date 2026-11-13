@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Adapted from https://github.com/luost26/academic-homepage (MIT). -->
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title }} · {{ site.title }}</title>
+  <meta name="description" content="{{ site.description | escape }}">
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  <meta property="og:type" content="website"><meta property="og:title" content="{{ page.title }} · {{ site.title }}"><meta property="og:description" content="{{ site.description | escape }}"><meta property="og:url" content="{{ page.url | absolute_url }}"><meta property="og:image" content="{{ '/assets/images/monogram.svg' | absolute_url }}">
+  <meta name="theme-color" content="#244769">
+  <link rel="icon" href="{{ '/assets/images/monogram.svg' | relative_url }}" type="image/svg+xml">
+  <link rel="stylesheet" href="{{ '/assets/vendor/bootstrap.min.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/vendor/fontawesome/css/all.min.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/global.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
+</head>
+<body class="bg-light d-flex flex-column min-vh-100">
+  {% include navbar.html %}
+  <main id="main-content" class="container-lg flex-grow-1 flex-shrink-0" tabindex="-1">{{ content }}</main>
+  {% include footer.html %}
+  <script src="{{ '/assets/js/navigation.js' | relative_url }}" defer></script>
+</body></html>

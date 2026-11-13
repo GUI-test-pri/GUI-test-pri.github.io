@@ -1,0 +1,6 @@
+<a href="#main-content" class="skip-link">Skip to content</a>
+<nav class="navbar navbar-expand-sm navbar-light fixed-top shadow-sm" aria-label="Main navigation"><div class="container-lg">
+  <a class="navbar-brand" href="{{ '/' | relative_url }}"><span class="brand-mark" aria-hidden="true">JG</span><strong>{{ site.data.profile.navbar_name }}</strong></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i class="fas fa-bars" aria-hidden="true"></i> <span class="small">Menu</span></button>
+  <div class="collapse navbar-collapse" id="navbarResponsive"><ul class="navbar-nav ml-auto">{% for item in site.data.navigation.pages %}<li class="nav-item {% if item.name == page.navbar_title %}active{% endif %}"><a class="nav-link" href="{{ item.url | relative_url }}" {% if item.name == page.navbar_title %}aria-current="page"{% endif %}{% if item.name == 'CV' %} target="_blank" rel="noopener noreferrer"{% endif %}>{{ item.name }}{% if item.name == 'CV' %} <span aria-hidden="true">↗</span>{% endif %}</a></li>{% endfor %}</ul></div>
+</div></nav>

@@ -1,0 +1,95 @@
+{
+  "primary_name": "Jinkun Gui",
+  "secondary_name": "",
+  "navbar_name": "Jinkun Gui",
+  "positions": [
+    {
+      "name": "Incoming PhD Student"
+    },
+    {
+      "name": "McGill University · January 2027"
+    }
+  ],
+  "email": "jinkun.gui@mail.mcgill.ca",
+  "cv_link": "/assets/Jinkun_Gui_CV.pdf",
+  "github": "GUI-test-pri",
+  "dblp": "https://dblp.org/pid/356/4311.html",
+  "portrait_url": "/assets/images/monogram.svg",
+  "portrait_caption": "Jinkun Gui",
+  "location": "Montreal, Canada",
+  "short_bio_text_justify": false,
+  "short_bio": "<p>I am a researcher and software developer working on <strong>privacy, security, and reliable software</strong>. I will join McGill University as a PhD student in January 2027, supervised by Dr. Lili Wei.</p>\n<p>I received my Master of Computer Science from the University of New Brunswick, supervised by Dr. Rongxing Lu, and my Bachelor of Computer Science with a Minor in Mathematics from Dalhousie University.</p>\n<p>My work spans secure IoT communication, privacy-preserving data sharing and analytics, and machine learning for device identification and anomaly detection. I have contributed to research collaborations with the National Research Council Canada and Mastercard, developed industrial software at Trihedral, and co-founded CurioSeed, a learning-companion chatbot venture for children.</p>",
+  "education": [
+    {
+      "name": "McGill University",
+      "position": "PhD (incoming)",
+      "dept": "Supervisor: Dr. Lili Wei",
+      "date": "Starting Jan. 2027"
+    },
+    {
+      "name": "University of New Brunswick",
+      "position": "Master of Computer Science",
+      "dept": "Supervisor: Dr. Rongxing Lu",
+      "date": "Sep. 2022 – Dec. 2024"
+    },
+    {
+      "name": "Dalhousie University",
+      "position": "Bachelor of Computer Science · Minor in Mathematics",
+      "dept": "Dean’s List · Sexton Scholar · George H. Campbell Scholarship",
+      "date": "Jan. 2018 – Apr. 2022"
+    }
+  ],
+  "experience": [
+    {
+      "name": "CurioSeed",
+      "position": "Co-founder",
+      "date": "Jan. 2026 – Oct. 2026",
+      "description": "Co-founded an AI2Market-funded venture and developed a learning-companion chatbot for children. Built checks for hate speech, profanity, potential emotional distress, and age-inappropriate content; helped shape product direction and prototype learning flows."
+    },
+    {
+      "name": "Trihedral Engineering Limited",
+      "position": "Software Developer",
+      "date": "Jan. 2025 – Jun. 2026",
+      "description": "Implemented FTP functionality and updated Page Note features for VTScada, an industrial SCADA platform. Investigated defects and maintained system features with a focus on reliability."
+    },
+    {
+      "name": "Canadian Institute for Cybersecurity, UNB",
+      "position": "Research Assistant",
+      "date": "Sep. 2022 – Dec. 2024",
+      "description": "Conducted applied IoT security research, including compromised-credential checking, performance evaluation, and system failure analysis."
+    }
+  ],
+  "projects": [
+    {
+      "name": "NRC Aging in Place Project",
+      "role": "Key contributor · National Research Council Canada collaboration",
+      "date": "2023 – Dec. 2024",
+      "description": "Designed multicast and threshold authenticated encryption schemes for secure IoT communication. Contributed to privacy-preserving aggregation, sharing, and analytics for sensitive health and IoT data."
+    },
+    {
+      "name": "Mastercard IoT Security Project",
+      "role": "Key contributor · Mastercard collaboration",
+      "date": "Sep. 2022 – Dec. 2024",
+      "description": "Extracted network-traffic features and evaluated machine-learning approaches for device identification and anomaly detection. Contributed to lightweight identification using behavioral features."
+    }
+  ],
+  "teaching": [
+    {
+      "name": "Teaching Assistant · University of New Brunswick",
+      "date": "Sep. 2022 – Dec. 2024",
+      "description": "Supported Information Security, Data Structures and Algorithms, and Cryptanalysis through labs, assignments, and student technical questions."
+    },
+    {
+      "name": "Volunteer Programming Instructor",
+      "date": "Chinese Cultural Association of New Brunswick",
+      "description": "Taught children programming with Scratch, encouraging creativity and interest in technology."
+    }
+  ],
+  "awards": [
+    {
+      "name": "Best Paper Award · ADIoT 2024",
+      "date": "2024",
+      "description": "For “An Efficient Edge-Based Privacy-Preserving Range Aggregation Scheme for Aging in Place System.”"
+    }
+  ]
+}

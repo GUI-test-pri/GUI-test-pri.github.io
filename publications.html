@@ -1,0 +1,16 @@
+---
+layout: default
+title: Publications
+navbar_title: Publications
+---
+<div class="page-intro"><p class="eyebrow">RESEARCH OUTPUT</p><h1>Publications</h1><p>Work on IoT security, applied cryptography, and privacy-preserving systems.</p></div>
+<section class="publication-controls" aria-label="Filter publications">
+  <div class="filter-buttons" role="group" aria-label="Publication type"><button type="button" class="filter-button active" data-filter="all" aria-pressed="true">All <span>8</span></button><button type="button" class="filter-button" data-filter="Journal" aria-pressed="false">Journals <span>2</span></button><button type="button" class="filter-button" data-filter="Conference" aria-pressed="false">Conferences <span>6</span></button></div>
+  <label class="search-label"><span class="sr-only">Search publications</span><input id="publication-search" type="search" placeholder="Search title, author, or venue…" aria-label="Search publications"></label>
+</section>
+<p id="filter-status" class="text-muted small" role="status" aria-live="polite">Showing 8 publications</p>
+{% assign pubs_by_year = site.publications | sort: "date" | reverse | group_by_exp: "item", "item.year" %}
+{% for year in pubs_by_year %}<section class="publication-year" data-year-group aria-labelledby="year-{{ year.name }}"><h2 id="year-{{ year.name }}" class="year-heading">{{ year.name }}</h2><div class="card border-0 shadow-sm bg-white">{% for item in year.items %}{% include widgets/publication_item.html item=item %}{% endfor %}</div></section>{% endfor %}
+<p id="no-results" class="card card-body border-0 shadow-sm" hidden>No matching publications. Try another search or publication type.</p>
+<p class="text-muted small mt-4">Jinkun Gui is highlighted in the author lists. Years follow the publication year; ADIoT 2024 proceedings appeared in 2025.</p>
+<script src="{{ '/assets/js/publications.js' | relative_url }}" defer></script>

@@ -1,0 +1,4 @@
+<section class="card border-0 shadow-sm bg-white mt-3" aria-labelledby="selected-title">
+  <div class="section-card-header"><h2 class="section-heading mb-0" id="selected-title">{{ include.title }}</h2><a href="{{ '/publications.html' | relative_url }}">View all 8 <span aria-hidden="true">→</span></a></div>
+  {% for item in include.publications %}{% include widgets/publication_item.html item=item %}{% endfor %}
+</section>

@@ -1,0 +1,19 @@
+title: Jinkun Gui
+description: "Jinkun Gui — privacy, IoT security, and reliable software. Incoming PhD student at McGill University, January 2027."
+url: "https://gui-test-pri.github.io"
+baseurl: ""
+lang: en
+timezone: America/Halifax
+markdown: kramdown
+plugins: []
+collections:
+  publications:
+    output: false
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - SETUP.md
+  - SOURCES.md
+  - vendor
+  - .bundle
